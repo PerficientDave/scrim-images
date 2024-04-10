@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust based on your preference */
+    height: auto;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .scrim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.15; /* 15% opacity */
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position to truly center */
+    color: white;
+    font-size: 24px; /* Adjust based on your preference */
+    text-align: center;
+  }
+  
